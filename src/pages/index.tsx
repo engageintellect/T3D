@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 				<div className="flex place-content-center h-screen">
 					<div className="flex place-content-center items-center">
 						<div className="flex flex-col">
-							<div className="text-6xl text-center my-2">Hello, Amit+.</div>
+							<div className="text-6xl text-center my-2">Hello, T3+.</div>
 							<div className=" text-lg">
 								{etMsg.data ? (
 									<span className="mx-10">
