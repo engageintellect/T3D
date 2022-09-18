@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import { trpc } from '../utils/trpc';
 
-const Home: NextPage = () => {
+const Home: NextPage = (props) => {
 	const etMsg = trpc.useQuery(['trpcRoute.etAPI']);
 
 	return (
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 				<div className="flex place-content-center h-screen">
 					<div className="flex place-content-center items-center">
 						<div className="flex flex-col">
-							<div className="text-6xl text-center my-2">Hello, T3+.</div>
+							<div className="text-6xl text-center my-2">Hello, T3D+.</div>
 							<div className=" text-lg">
 								{etMsg.data ? (
 									<span className="mx-10">
