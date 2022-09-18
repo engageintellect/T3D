@@ -22,7 +22,7 @@ const Home: NextPage = (props) => {
 							<div className=" text-lg">
 								{etMsg.data ? (
 									<span className="mx-10">
-										<a href="https://et-dev.firstam.com">{etMsg.data.greeting}</a>
+										<a href="https://google.com">{etMsg.data.greeting}</a>
 									</span>
 								) : (
 									<span>Loading..</span>
