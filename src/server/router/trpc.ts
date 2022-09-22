@@ -34,7 +34,7 @@ export const trpcRouter = createRouter()
 	.query('etAPI', {
 		async resolve() {
 			return {
-				greeting: 'A stack for building fast.'
+				greeting: 'A cool stack for building fast.'
 			};
 		}
 	});
